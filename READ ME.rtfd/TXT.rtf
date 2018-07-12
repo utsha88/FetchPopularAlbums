@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red16\green60\blue192;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs25\fsmilli12800 \cf2 \expnd0\expndtw0\kerning0
+Using the following api:\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://rss.itunes.apple.com/api/v1/us/apple-music/top-albums/all/50/non-explicit.json"}}{\fldrslt \cf3 \ul \ulc3 https://rss.itunes.apple.com/api/v1/us/apple-music/top-albums/all/50/non-explicit.json}}\
+\
+Build an app that will display a tableview of the top 30 albums on Apple music that are returned under the "results" object inside the top level "feed" object\
+\
+Conditions:\
+\
+* Use MVVM design pattern\
+\
+* Implement Core Data for offline capabilities.\'a0 Results should be loaded from core data and refreshed from the network\
+\
+* The apps main view controller title will be the "title" object of the top level "feed" object\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf2 * The tableview cell will consist of:\
+\'a0 * the artist name\
+\'a0 * the name of the album\
+\'a0 * thumbnail view of the album artwork\
+\
+* Tapping on a tableview cell will show a detail view controller of each result and will display the following:\
+\'a0 * * the artist name\
+\'a0 * the name of the album\
+\'a0 * 200px by 200px view of the album artwork centered on the view\
+\'a0 * album release date\
+\'a0 * copyright information\
+\'a0 * url link to the App Store\
+\
+* Layouts must look good on all device sizes\
+\
+* The application must be fully unit tested}
